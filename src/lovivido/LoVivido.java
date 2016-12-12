@@ -9,13 +9,10 @@ import javax.swing.JOptionPane;
 public class LoVivido {
 
 public static void main(String[] args) {
-String n;
-String e;
+//Poner todas las variables juntas
+String n,e;
+int m,d,h,a;
 
-int m;
-int d;
-int h;
-int a;
 
 n = JOptionPane.showInputDialog ("Escriba su nombre: ");
 e = JOptionPane.showInputDialog ("Escriba su edad: ");
