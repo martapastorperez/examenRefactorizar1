@@ -12,16 +12,16 @@ public static void main(String[] args) {
 //Poner todas las variables juntas
 //Renombrar los nombres de las variables para que sea mas entendible el codigo
 String nombre,edad;
-int meses,dias,horas,a;
+int meses,dias,horas,años;
 
 
 nombre = JOptionPane.showInputDialog ("Escriba su nombre: ");
 edad = JOptionPane.showInputDialog ("Escriba su edad: ");
  
-a =Integer.parseInt(edad);
+años =Integer.parseInt(edad);
  
-meses = (a*12);
-dias = (a*365);
+meses = (años*12);
+dias = (años*365);
 horas = (dias*24);
  
 Persona pers=new Persona();
